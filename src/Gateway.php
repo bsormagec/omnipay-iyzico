@@ -34,7 +34,7 @@ use Omnipay\Iyzico\Messages\AuthorizeRequest;
  * @method RequestInterface void(array $options = array())
  * @method RequestInterface updateCard(array $options = array())
  */
-class IyzicoGateway extends AbstractGateway
+class Gateway extends AbstractGateway
 {
 
     /**
